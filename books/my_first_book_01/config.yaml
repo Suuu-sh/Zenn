@@ -4,5 +4,5 @@ topics: ["zenn", "book"]
 published: false
 price: 0
 chapters:
-  - intro
+  - intro_to_zenn
   - getting_started
