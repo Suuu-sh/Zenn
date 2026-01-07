@@ -1,8 +1,0 @@
-title: "My First Zenn Book"
-summary: "A short sample book to verify Zenn book structure."
-topics: ["zenn", "book"]
-published: false
-price: 0
-chapters:
-  - intro_to_zenn
-  - getting_started
