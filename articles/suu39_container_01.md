@@ -1,6 +1,6 @@
 ---
 title: "3年目までに知っとけコンテナの技術"
-emoji: "🐳”
+emoji: "🐳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["container", "docker", "devops"]
 published: false
