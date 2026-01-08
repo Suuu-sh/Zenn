@@ -1,5 +1,5 @@
 ---
-title: '1年目から知っておきたいDockerの技術'
+title: 'Dockerを「説明できる」ようになるための基本整理'
 emoji: '🐳'
 type: 'tech'
 topics: ['container', 'docker', 'devops']
