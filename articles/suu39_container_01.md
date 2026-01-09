@@ -84,7 +84,7 @@ VMは「家を丸ごと借りる」イメージ。
 Dockerを理解する上で、最も重要なのが  
 イメージとコンテナの違いです。
 
-- イメ
+- イメージ
   アプリを動かすためのファイル一式  
   （読み取り専用・不変）
 
@@ -243,6 +243,9 @@ Dockerを使った開発や運用の話についていきやすくなります�
 
 ### 参照したインターネットソース
 
-- Docker公式ドキュメント（Docker Documentation）  
-- Dockerfile Reference（Dockerfile Reference）  
-- Linux Containers Overview（Linux Containers Overview）
+- https://docs.docker.com/
+- https://docs.docker.com/reference/dockerfile/
+- https://docs.docker.com/get-started/overview/
+- https://linuxcontainers.org/
+- https://man7.org/linux/man-pages/man7/namespaces.7.html
+- https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html
