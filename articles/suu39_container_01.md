@@ -246,6 +246,3 @@ Dockerを使った開発や運用の話についていきやすくなります�
 - https://docs.docker.com/
 - https://docs.docker.com/reference/dockerfile/
 - https://docs.docker.com/get-started/overview/
-- https://linuxcontainers.org/
-- https://man7.org/linux/man-pages/man7/namespaces.7.html
-- https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html
