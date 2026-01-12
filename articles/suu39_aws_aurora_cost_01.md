@@ -3,7 +3,7 @@ title: 'AuroraのStorageI/Oが40億回叩かれて1000ドル溶けた話'
 emoji: '💥'
 type: 'tech'
 topics: ['aws', 'aurora', 'cost', 'rds']
-published: public
+published: true
 ---
 
 # はじめに
