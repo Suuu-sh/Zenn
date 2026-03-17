@@ -3,7 +3,7 @@ title: 'Codexずんだもん化計画実施してみた'
 emoji: '🫛'
 type: 'idea'
 topics: ['codex', 'voicevox', 'ai', 'macos']
-published: false
+published: true
 ---
 
 # はじめに
@@ -255,4 +255,4 @@ Codex と VOICEVOX をつないで、ずんだもん化してみました。
 - 完了時だけは `task_complete` / `issue_found` と短い要約文を Codex がキューする
 - notify hook がそれを回収して、通知センターと VOICEVOX 再生につなぐ
 
-今後長く付き合っていく相棒は可愛い方がいいですよね！皆さんも良いAIライフを！
+今後長く付き合っていく相棒は愛嬌ある方がいいですよね！皆さんも良いAIライフをなのだ！
