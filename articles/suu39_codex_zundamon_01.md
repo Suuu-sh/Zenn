@@ -1,5 +1,5 @@
 ---
-title: 'Codexずんだもん化計画実施してみた'
+title: 'Codexずんだもん化計画実施してみたのだ'
 emoji: '🫛'
 type: 'idea'
 topics: ['codex', 'voicevox', 'ai', 'macos']
