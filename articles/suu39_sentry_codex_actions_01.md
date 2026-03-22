@@ -3,12 +3,12 @@ title: '個人開発のエラー対応をSentry × Codex × GitHub Actionsで自
 emoji: '🚨'
 type: 'tech'
 topics: ['sentry', 'codex', 'githubactions', 'devops']
-published: false
+published: true
 ---
 
 # はじめに
 
-個人開発している backend で本番エラーが見つかったあとに、毎回かなり似た初動作業が発生していました。
+個人開発している backend で本番エラーが見つかったあとに、毎回同じ初動作業が発生していました。
 
 - どの issue から手を付けるか決める
 - 調査用の branch を切る
@@ -16,10 +16,9 @@ published: false
 - 修正に必要な材料を集める
 
 こういう部分は、人が毎回手でやるより、自動化したほうが速くて安定します。
-そこで今は、**Sentry / GitHub Actions / Codex を組み合わせて、障害対応を自動化する仕組み**を個人開発で回しています。
+そこで今は、**Sentry / GitHub Actions / Codex を組み合わせて、障害対応を自動化する仕組み**を個人開発で作ってみました。
 
 この記事では、現在個人開発で実際に運用している構成をそのまま整理します。
-ポイントは、**完全自動修復を目指すのではなく、修正に入りやすい状態を自動で作る**ことです。
 
 ---
 
@@ -143,6 +142,8 @@ docs/sentry-triage/<short-id>.md
 
 レポートには次のような情報を入れています。
 
+![](https://storage.googleapis.com/zenn-user-upload/35dd72cacf08-20260323.png)
+
 - issue の title / status / level / count
 - first seen / last seen
 - culprit
@@ -151,7 +152,7 @@ docs/sentry-triage/<short-id>.md
 - tags
 - 次に見るべきこと
 
-そうすることで、PR を見る私が
+そうすることで、PR を見るCodexと私が
 **最初にどこから見ればよいか**
 をすぐに理解できるようにしています。
 
