@@ -3,7 +3,7 @@ title: '個人開発のエラー対応をSentry × Codex × GitHub Actionsで自
 emoji: '🚨'
 type: 'tech'
 topics: ['sentry', 'codex', 'githubactions', 'devops']
-published: false
+published: true
 ---
 
 # はじめに
