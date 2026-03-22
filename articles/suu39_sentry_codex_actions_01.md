@@ -143,6 +143,8 @@ docs/sentry-triage/<short-id>.md
 
 レポートには次のような情報を入れています。
 
+![](https://storage.googleapis.com/zenn-user-upload/35dd72cacf08-20260323.png)
+
 - issue の title / status / level / count
 - first seen / last seen
 - culprit
@@ -151,7 +153,7 @@ docs/sentry-triage/<short-id>.md
 - tags
 - 次に見るべきこと
 
-そうすることで、PR を見る私が
+そうすることで、PR を見るCodexと私が
 **最初にどこから見ればよいか**
 をすぐに理解できるようにしています。
 
