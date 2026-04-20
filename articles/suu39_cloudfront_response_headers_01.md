@@ -8,12 +8,8 @@ published: false
 
 # はじめに
 
-CloudFront の CORS 設定は、
-`Access-Control-Allow-*` が多くて分かりにくいです。
-
-自分も、実際に CORS エラーが出て
-CloudFront の設定を変更する機会がありました。
-そのときに整理した内容を、この記事にまとめています。
+CORSの解決のためCloudFrontのResponse Headersを修正する機会があり、
+その際にわからないことが多かったので理解するためにまとめました。
 
 この記事では、
 
